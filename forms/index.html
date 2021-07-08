@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>University form</title>
+</head>
+
+<body class="body">
+  <h1 class="title-heading">Anna University</h1>
+  <h3 class="sub-heading">Student Registration Form</h3>
+  <form class="container form-group" action="index.html" method="post" id="FORM">
+    <div class="row">
+      <div class="col-lg-3 mx-auto col1">
+        <label for="">Name:</label>
+      </div>
+      <div class="col-lg-3 mx-auto ">
+        <input type="text" id="name">
+      </div>
+    </div>
+    <div class="row small-row">
+      <div class="col-lg-3 mx-auto col1"></div>
+      <div class="col-lg-3 mx-auto ">
+        <small class="small" id="name-small">*Enter name!!</small>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 mx-auto col1">
+        <label for="">DOB:</label>
+      </div>
+      <div class="col-lg-3 mx-auto ">
+        <input type="date" id="dob">
+      </div>
+    </div>
+    <div class="row small-row">
+      <div class="col-lg-3 mx-auto col1"></div>
+      <div class="col-lg-3 mx-auto ">
+        <small class="small" id="dob-small">*Enter dob!!</small>
+      </div>
+    </div>
+    <div class="row rd-btn">
+      <div class="col-lg-3 mx-auto col1">
+        <label for="">Sex:</label>
+      </div>
+      <div class="col-lg-3 mx-auto">
+        <input type="radio" name="rd-button" value="Male" id="male-id">
+        <span>Male</span>
+        <input type="radio" name="rd-button" value="Female" id="female-id">
+        <span>Female</span>
+      </div>
+    </div>
+    <div class="row small-row">
+      <div class="col-lg-3 mx-auto col1"></div>
+      <div class="col-lg-3 mx-auto ">
+        <small class="small" id="sex-small">*Select sex!!</small>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 mx-auto col1">
+        <label for="">Email:</label>
+      </div>
+      <div class="col-lg-3 mx-auto ">
+        <input type="email" id="email">
+      </div>
+    </div>
+    <div class="row small-row">
+      <div class="col-lg-3 mx-auto col1"></div>
+      <div class="col-lg-3 mx-auto ">
+        <small class="small" id="email-small">*Enter email!!</small>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 mx-auto col1">
+        <label for="">Address:</label>
+      </div>
+      <div class="col-lg-3 mx-auto ">
+        <textarea name="name" rows="1" cols="40" id="address"></textarea>
+      </div>
+    </div>
+    <div class="row small-row">
+      <div class="col-lg-3 mx-auto col1"></div>
+      <div class="col-lg-3 mx-auto ">
+        <small class="small" id="address-small">*Enter address!!</small>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 mx-auto col1">
+        <label for="schools">School:</label>
+      </div>
+      <div class="col-lg-3 mx-auto ">
+        <select class="schools" id="school">
+          <option hidden selected>Select..</option>
+          <option value="Arts and Science" class="arts-science">Arts and Science</option>
+          <option value="Commerce" class="commerce">Commerce</option>
+          <option value="Engineering and Sciences" class="engg-science">Engineering and Sciences</option>
+          <option value="Humanities" class="humanities">Humanities</option>
+          <option value="Medicine and Health sciences" class="medicine-science">Medicine and Health sciences</option>
+        </select>
+      </div>
+    </div>
+    <div class="row small-row">
+      <div class="col-lg-3 mx-auto col1"></div>
+      <div class="col-lg-3 mx-auto ">
+        <small class="small" id="school-small">*Enter school!!</small>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 mx-auto col1">
+        <label for="departments">Department:</label>
+      </div>
+      <div class="col-lg-3 mx-auto ">
+        <select class="departments" id="department">
+          <option hidden selected>Select..</option>
+          <option value="Computer Science">Computer Science</option>
+          <option value="Clinical Science">Clinical Science</option>
+          <option value="Pschycology">Pschycology</option>
+        </select>
+      </div>
+    </div>
+    <div class="row small-row">
+      <div class="col-lg-3 mx-auto col1"></div>
+      <div class="col-lg-3 mx-auto ">
+        <small class="small" id="department-small">*Enter department!!</small>
+      </div>̥
+    </div>
+    <div class="row ">
+      <div class="col-lg-3 mx-auto col1">
+        <label for="courses">Course:</label>
+      </div>
+      <div class="col-lg-3 mx-auto ">
+        <select class="courses" id="course">
+          <option hidden selected>Select..</option>
+          <option value="BE Computer Science">BE Computer Science</option>
+          <option value="Bsc Clinical Science">Bsc Clinical Science</option>
+          <option value="Bsc Pschycology">Bsc Pschycology</option>
+        </select>
+      </div>
+    </div>
+    <div class="row small-row">
+      <div class="col-lg-3 mx-auto col1"></div>
+      <div class="col-lg-3 mx-auto ">
+        <small class="small" id="course-small">*Enter course!!</small>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 mx-auto col1">
+        <label>Mobile Number:</label>
+      </div>
+      <div class="col-lg-3 mx-auto ">
+        <input type="tel" id="number">
+      </div>
+    </div>
+    <div class="row small-row">
+      <div class="col-lg-3 mx-auto col1"></div>
+      <div class="col-lg-3 mx-auto ">
+        <small class="small" id="number-small">*Enter Number!!</small>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 mx-auto col1">
+        <label for="">Password</label>
+      </div>
+      <div class="col-lg-3 mx-auto ">
+        <input type="password" id="password">
+      </div>
+    </div>
+    <div class="row small-row">
+      <div class="col-lg-3 mx-auto col1"></div>
+      <div class="col-lg-3 mx-auto ">
+        <small class="small" id="password-small">*Enter password!!</small>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 mx-auto col1">
+        <label for="">Confirm password:</label>
+      </div>
+      <div class="col-lg-3 mx-auto ">
+        <input type="password" id="password-conf">
+      </div>
+    </div>
+    <div class="row small-row">
+      <div class="col-lg-3 mx-auto col1"></div>
+      <div class="col-lg-3 mx-auto ">
+        <small class="small" id="password-conf-small">*Passwods do not match!!</small>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content" id="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="modal-body">
+            <div id="modal-body">
+              <table border="1px solid">
+                <tr>
+                  <th>Field</th>
+                  <th>Data</th>
+                </tr>
+                <tr>
+                  <td>Name</td>
+                  <td id="name-col"></td>
+                </tr>
+                <tr>
+                  <td>DOB</td>
+                  <td id="dob-col"></td>
+                </tr>
+                <tr>
+                  <td>Sex</td>
+                  <td id="sex-col"></td>
+                </tr>
+                <tr>
+                  <td>Email</td>
+                  <td id="email-col"></td>
+                </tr>
+                <tr>
+                  <td>Address</td>
+                  <td id="address-col"></td>
+                </tr>
+                <tr>
+                  <td>School</td>
+                  <td id="school-col"></td>
+                </tr>
+                <tr>
+                  <td>Department</td>
+                  <td id="department-col"></td>
+                </tr>
+                <tr>
+                  <td>Course</td>
+                  <td id="course-col"></td>
+                </tr>
+                <tr>
+                  <td>Mobile Number</td>
+                  <td id="number-col"></td>
+                </tr>
+                <!-- <tr>
+                  <td>password</td>
+                  <td id="password-col"></td>
+                </tr> -->
+              </table>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" onclick="save_changes()">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 mx-auto col1 btns">
+        <button class="btn inbtn" onclick="form_reset()">Reset</button>
+      </div>
+      <div class="col-lg-3 mx-auto btns">
+        <button type="button" class="btn inbtn" onclick="form_submit()">Submit</button>
+      </div>
+    </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+.body {
+  color: #ffffff;
+  background-color: #D83A56;
+}
+
+.title-heading {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.sub-heading {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.row {
+  padding-top: 0.5rem;
+}
+
+.small-row{
+  padding-top: 0;
+  height: 1.5rem;
+}
+
+.container {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.col1 {
+  height: 1.5rem;
+}
+
+.btns {
+  text-align: center;
+}
+
+.inbtn{
+  background-color: #185ADB;
+  color: #ffffff;
+}
+
+.modal{
+  color: black;
+}
+
+.rd-btn{
+  height: 1.5rem;
+}
+
+.small{
+  display: none;
+}
+
+#password-conf-small{
+  width: auto;
+}
